@@ -1,0 +1,19 @@
+{
+    "data.train": "data/Ragni-train.csv",
+    "data.test": "data/Ragni-test.csv",
+    "corresponding_data": false,
+    "models": [
+        "baseline/Khemlani2012/Atmosphere",
+        "baseline/Khemlani2012/Conversion",
+        "baseline/Khemlani2012/Matching",
+        "baseline/Khemlani2012/MentalModels",
+        "baseline/Khemlani2012/PHM",
+        "baseline/Khemlani2012/PSYCOP",
+        "baseline/Khemlani2012/VerbalModels",
+        "baseline/MFA-Model/",
+        "baseline/Uniform-Model/",
+        "networks/rnn/sylrnn.py",
+        "networks/mlp/sylmlp.py",
+        "networks/autoencoder/autoenc_model.py"
+    ]
+}
