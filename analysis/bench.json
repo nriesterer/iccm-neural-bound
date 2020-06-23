@@ -1,6 +1,6 @@
 {
-    "data.train": "data/Ragni-train.csv",
     "data.test": "data/Ragni-test.csv",
+    "data.pre_train": "data/Ragni-train.csv",
     "corresponding_data": false,
     "models": [
         "baseline/Khemlani2012/Atmosphere",

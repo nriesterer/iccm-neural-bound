@@ -22,7 +22,7 @@ Companion repository for the 2019 article "Predictive Modeling of Individual Hum
 ## Dependencies
 
 - Python 3
-    - [CCOBRA 0.0.14](https://github.com/CognitiveComputationLab/ccobra)
+    - [CCOBRA 1.1.0](https://github.com/CognitiveComputationLab/ccobra)
     - [pandas](https://pandas.pydata.org)
     - [numpy](https://www.numpy.org)
     - [seaborn](https://seaborn.pydata.org)

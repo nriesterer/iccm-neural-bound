@@ -96,3 +96,6 @@ class SylMLPModel(ccobra.CCobraModel):
         syl_idx = ccobra.syllogistic.SYLLOGISMS.index(syllogism.encoded_task)
         truth_idx = ccobra.syllogistic.RESPONSES.index(syllogism.encode_response(truth))
         self.history[syl_idx * 9 + truth_idx] = 1
+
+    def pre_train_person(self, person_data):
+        pass

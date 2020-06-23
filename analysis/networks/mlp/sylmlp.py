@@ -94,7 +94,7 @@ class MLPModel(ccobra.CCobraModel):
                 print('Epoch {} ({:.2f}s): {}'.format(
                     epoch + 1, time.time() - start_time, np.mean(losses)))
 
-    def person_train(self, data, **kwargs):
+    def pre_train_person(self, data, **kwargs):
         pass
 
     def predict(self, item, **kwargs):
